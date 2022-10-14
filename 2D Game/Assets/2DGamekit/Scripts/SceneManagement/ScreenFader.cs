@@ -54,6 +54,7 @@ namespace Gamekit2D
 
         void Awake ()
         {
+            Debug.Log(gameObject.name);
             if (Instance != this)
             {
                 Destroy (gameObject);
